@@ -94,6 +94,10 @@ header h2 {
 @media (max-width: 700px) {
   header h2 {
     display: block;
+    top: 95px;
+    left: 0;
+    right: 0;
+    text-align: center;
   }
   header h2 a {
     font-size: 25px;
@@ -112,7 +116,7 @@ header h2 {
     font-size: 25px;
   }
   #btn {
-    top: 20px;
+    top: 60px;
     right: 10px;
     position: absolute;
     width: 30px;
