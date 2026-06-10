@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "font1";
+  font-weight: 100;
+  font-display: auto;
+  src: url("../font/alk-tall-nusxuri.otf") format("opentype");
+}
+
+.img {
+  width: 100%;
+  height: 800px;
+  background-image: url(../images/background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.title {
+  font-size: 120px;
+  letter-spacing: 10px;
+  color: #ed8311;
+  font-family: "font1";
+}
+.img p {
+  color: white;
+  width: 50%;
+  font-family: Helvetica;
+}
+.img h2 a {
+  padding: 10px 30px;
+  background-color: white;
+  border: 1px solid white;
+  color: rgb(237, 131, 17);
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  font-size: 50px;
+}
+.img h2 a:hover {
+  background-color: transparent;
+  color: white;
+}
