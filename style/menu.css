@@ -15,12 +15,12 @@ main {
   padding: 0px 100px;
   margin-top: 40px;
 }
+
 article {
   display: flex;
   gap: 20px;
   align-items: center;
   justify-content: center;
-
   transition: 0.3s ease;
 }
 article:hover {
@@ -29,6 +29,7 @@ article:hover {
 }
 article div {
   font-size: 50px;
+  width: 150px;
 }
 article div h2 {
   font-size: 40px;
@@ -103,5 +104,14 @@ button:active {
   }
   .sasmelebi h2 {
     font-size: 50px;
+  }
+  .menu {
+    font-size: 50px;
+  }
+  .articles {
+    padding: 0 20px;
+  }
+  article img {
+    width: 150px;
   }
 }
